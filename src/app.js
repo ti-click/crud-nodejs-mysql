@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 // middlewares
 app.use(morgan('dev'));
 app.use(myConnection(mysql, {
-  host: 'localhost',
+  host: 'tidb.2f6959de.48bdbcc1.us-west-2.prod.aws.tidbcloud.com',
   user: 'root',
   password: '',
   port: 4000,
