@@ -19,7 +19,7 @@ app.use(morgan('dev'));
 app.use(myConnection(mysql, {
   host: 'tidb.2f6959de.48bdbcc1.us-west-2.prod.aws.tidbcloud.com',
   user: 'root',
-  password: '',
+  password: 'ti-click',
   port: 4000,
   database: 'crudnodejsmysql'
 }, 'single'));
